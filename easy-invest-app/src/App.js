@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="title">
         <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/courses" element={<CoursesPage />}/>
