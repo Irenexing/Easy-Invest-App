@@ -2,6 +2,7 @@
 import './App.scss';
 import Intro from './components/Intro/Intro';
 import Intro4 from './components/Intro/Intro4/Intro4';
+import HomePage from './components/HomePage/HomePage';
 import CoursesPage from './components/CoursesPage/CoursesPage';
 import Invest101Page from './components/Invest101Page/Invest101Page';
 import Module1Page from './components/Module1Page/Module1Page';
@@ -17,11 +18,12 @@ function App() {
         <BrowserRouter>
         <Navbar />
         <Routes>
+        <Route path="/" element={<HomePage />} />
           <Route  path="/intro" element={<Intro />} />
             <Route path="/intro4" element={<Intro4 />} />
           <Route path="/courses" element={<CoursesPage />}/>
           <Route path="/invest101" element={<Invest101Page />} />
-          <Route path="module1" element={<Module1Page />} />
+          <Route path="/module1" element={<Module1Page />} />
           <Route path="/simulation" element={<Simulation />} />
 
         </Routes>

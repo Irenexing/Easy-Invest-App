@@ -1,11 +1,13 @@
 import React from "react";
+import './Module1Pages.scss';
 
 const Module1Page = () => {
 
 return (
   <div className="module1">
-    <h1>INVESTMENT TYPES</h1>
+    <div className="right-container">
     <iframe
+      className="video"
       width="853"
       height="480"
       src={`https://www.youtube.com/embed/R7qaVo7NXKE`}
@@ -14,7 +16,7 @@ return (
       allowFullScreen
       title="Embedded youtube"
     />
-    <h2>Summary</h2>
+    <h1>INVESTMENT TYPES</h1>
     <ol>
         <li>High-Interest Savings Account</li>
             <ul>
@@ -69,6 +71,7 @@ return (
             <li>Could flip properties or rent out properties</li>
           </ul>
     </ol>
+  </div>
   </div>
 )}
 
