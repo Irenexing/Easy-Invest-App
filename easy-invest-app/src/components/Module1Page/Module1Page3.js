@@ -1,11 +1,14 @@
 import React from "react";
 import './Module1Pages.scss';
+import ModuleCardList from "../ModuleCardList/ModuleCardList";
 
-const Module1Page = () => {
-
+const Module1Page3 = () => {
 return (
+  <div className="module1page">
+      <div>
+      <ModuleCardList/>
+      </div>
   <div className="module1">
-    <div className="right-container">
     <iframe
       className="video"
       width="853"
@@ -16,14 +19,15 @@ return (
       allowFullScreen
       title="Embedded youtube"
     />
+    <div>CHAPTER 3</div>
     <h1>INVESTMENT TYPES</h1>
-    <ol>
-        <li>High-Interest Savings Account</li>
+    <ol className="list">
+        <li className="list-items">High-Interest Savings Account</li>
             <ul>
               <li>Safest way - no volatility</li>
               <li>Earning guaranteed annual interest around 1.3%</li>
             </ul>
-        <li>Money Market Account</li>
+        <li className="list-items">Money Market Account</li>
             <ul>
               <li>Safest way - no volatility</li>
               <li>Another type of high-interest savings account</li>
@@ -31,14 +35,14 @@ return (
               <li>Returning around 1%-2% interest</li>
               <li>Potential monthly fees</li>
             </ul>
-        <li>Certificate of Deposit</li>
+        <li className="list-items">Certificate of Deposit</li>
             <ul>
             <li>Safest way - no volatility </li>
             <li>Promissory note from bank </li>
             <li>Fixed interest over a specified amount of time</li>
             <li>However, during that time it cannot be converted to cash without a penalty. </li>
             </ul>
-        <li>Bond</li>
+        <li className="list-items">Bond</li>
             <ul>
               <li>Bit riskier, corporate bonds aren't guaranteed by the full faith and credit</li>
               <li>A Note issued by the government or corporations when they're looking to fund a new project.</li>
@@ -46,33 +50,34 @@ return (
               <li>As interest rates fall, bond prices rise. Vice Versa </li>
               <li>During that time it cannot be converted to cash </li>
             </ul>
-        <li>Mutual Fund</li>
+        <li className="list-items">Mutual Fund</li>
           <ul>
             <li>Pre-diversified collections of investments, safer than individual stocks</li>
             <li>Vary in risk depending on the type of fund</li>
             <li>Operated by a fund manager that chooses and maintains the portfolio</li>
           </ul>
-        <li>Exchange Traded Fund (ETF)</li>
+        <li className="list-items">Exchange Traded Fund (ETF)</li>
           <ul>
             <li>Similar to mutual funds but bit riskier</li>
             <li>and are traded on an exchange like stocks</li>
             <li>More tax advantages compared to mutual funds</li>
             <li>ETFs are a more hands-on investment than mutual funds</li>
           </ul>
-        <li>Stock</li>
+        <li className="list-items">Stock</li>
           <ul>
             <li>Riskier than ETFs because there is no diversification</li>
             <li>It is a very hands-on investment </li>
             <li>A stock is a share of ownership of a company</li>
           </ul>
-        <li>Real Estate</li>
+        <li className="list-items">Real Estate</li>
           <ul>
             <li>Requires a lot of capital</li>
             <li>Could flip properties or rent out properties</li>
           </ul>
     </ol>
+    <button className="module__button">Test your knowledge</button>
   </div>
   </div>
 )}
 
-export default Module1Page;
+export default Module1Page3;

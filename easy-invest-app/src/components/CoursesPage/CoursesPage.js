@@ -10,7 +10,7 @@ function CoursesPage() {
       <>
       <h2> What do you want to learn? </h2>
         <section className="card-list">
-        <Link to="/module1" onClick={(closeMobileMenu)}> 
+        <Link to="/module11" onClick={(closeMobileMenu)}> 
           <Cards
               img= "images/invest.png"
               title="How to invest"/>

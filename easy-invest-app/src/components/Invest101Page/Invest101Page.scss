@@ -1,0 +1,30 @@
+.cards {
+    width: 20rem;
+    height: 7rem;
+    margin: 1rem 2rem;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 3px #aaaaaa;
+    border-radius: 5px;
+    padding-top: 0.9375rem;
+    display: flex;
+    font-weight: 200;
+
+    &__image {
+        height: 5rem;
+        padding: 0.25rem;
+    }
+    &__chapter {
+        color: #747F8B;
+    }
+    &__description {
+        font-size: 0.7rem;
+    }
+    &__duration {
+        font-size: 0.7rem;
+        background-color: #C2D3FF;
+        border-radius: 5px;
+        width: 4rem;
+    }
+
+  }
