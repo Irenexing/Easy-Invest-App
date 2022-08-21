@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "AvenirNextLTPro";
+    text-decoration: none;
   }
   
   .home,
@@ -43,3 +44,19 @@
     color: #fff;
     font-size: 100px;
   }
+
+
+/* Normal / Normal */
+@font-face {
+  font-family: "AvenirNextLTPro";
+  src: url("../public/typography/AvenirNextLTPro.ttf") format("truetype"),
+       url("../public/typography/AvenirNextLTPro.ttf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro";
+  src: url("../public/typography//AvenirNextLTProBold.ttf") format("truetype"),
+       url("../public/typography/AvenirNextLTPro-Bold.otf") format("opentype");
+  font-weight: 700;
+}

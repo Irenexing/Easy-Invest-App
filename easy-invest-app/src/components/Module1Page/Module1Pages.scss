@@ -6,6 +6,7 @@
 
 .module1 {
     padding: 2rem;
+    z-index: 1;
 }
 
 ol {
@@ -18,7 +19,7 @@ ul {
 
 .list-items {
     text-decoration-line: underline;
-    font-size: 20px;
+    font-size: 18px;
 }
 .module1page {
     background-color: #F5F5F5;
@@ -47,4 +48,16 @@ ul {
     margin: 2rem;
     position: relative;
     left: 30rem; 
+}
+.bold-text {
+    font-weight: 700;
+}
+.chapter {
+    background-color: #E8ECF5;
+    border-radius: 5px;
+    width: 120px;
+    height: 38px;
+    padding: 8px;
+    text-align: center;
+    margin: 2rem 0rem;
 }
