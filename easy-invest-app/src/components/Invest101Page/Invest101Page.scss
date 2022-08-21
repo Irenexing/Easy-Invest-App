@@ -8,7 +8,7 @@
     border-radius: 5px;
     padding-top: 0.9375rem;
     display: flex;
-    font-weight: 200;
+    font-family: "AvenirNextLTPro";
 
     &__image {
         height: 5rem;
@@ -28,3 +28,6 @@
     }
 
   }
+  .bold-text {
+    font-weight: 700;
+}

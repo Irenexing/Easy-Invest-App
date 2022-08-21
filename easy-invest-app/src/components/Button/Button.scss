@@ -1,43 +1,87 @@
 :root {
-    --primary: #fff;
-  }
-  
-  .btn {
-    padding: 8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
-  }
-  
-  .btn--secondary {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
-  }
-  
-  .btn--small {
-    padding: 8px 20px;
-    font-size: 18px;
-  }
-  
-  .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
-  }
-  
-  .btn--large:hover,
-  .btn--small:hover {
-    transition: all 0.3s ease-out;
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  }
+  --primary: #fff;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-home {
+  text-decoration: none;
+}
+.btn--primary {
+  // background-color: var(--primary);
+  // color: #242424;
+  // border: 1px solid var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  color: white;
+  width: 296px;
+  height: 74px;
+  left: 160px;
+  top: 653px;
+
+  /* Action/Primary/40 */
+
+  background: #15718d;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+}
+
+.btn--secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  width: 200px;
+  // height: 58px;
+
+  /* Action/Primary/10 */
+
+  background: #f7f9fa;
+  /* Action/Secondary/30 */
+
+  border: 2px solid #c1c6cc;
+  border-radius: 100px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  transition: all 0.3s ease-out;
+  // background-color: transparent;
+  // color: black;
+  // background: linear-gradient(0deg, #f7f9fa, #f7f9fa),
+  //   linear-gradient(0deg, #c1c6cc, #c1c6cc);
+  // padding: 8px 20px;
+  // border: 1px solid var(--primary);
+  // border: 2px solid #c1c6cc;
+  // transition: all 0.3s ease-out;
+}
+
+.btn--small {
+  padding: 8px 20px;
+  font-size: 12px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--small:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}

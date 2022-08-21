@@ -8,7 +8,7 @@ function Invest101Page(props) {
             <img className="cards__image" src ={props.img} alt={"image"}/>
             <div>
             <div className="cards__chapter">{props.chapter}</div>
-            <div className="cards__title">{props.title}</div>
+            <div className="cards__title bold-text">{props.title}</div>
             <p className="cards__description">{props.description}</p>
             <p className="cards__duration">{props.duration}</p>
             </div>

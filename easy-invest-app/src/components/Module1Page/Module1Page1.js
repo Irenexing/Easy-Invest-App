@@ -6,7 +6,7 @@ import ModuleCardList from "../ModuleCardList/ModuleCardList";
 const Module1Page1 = () => {
 return (
   <div className="module1page">
-      <ModuleCardList/>
+      <ModuleCardList className="sidebar"/>
   <div className="module1">
     <iframe
       className="video"
