@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Intro() {
   let navigate = useNavigate(); 
   function handleClick() {
-    navigate ('/intro1');
+    navigate ('/intro4');
   };
     return (
       <div>

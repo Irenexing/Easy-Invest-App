@@ -1,17 +1,17 @@
-import { Outlet, Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import Cards from '../Cards/Cards';
+import { Link } from "react-router-dom";
+import './CoursesPage.scss'; 
 
 function CoursesPage() {
+
     return (
-      <div className="App">
-        <nav>
-        <Link className="link" to="services">
-          Services
-        </Link>
-        <Link className="link" to="our-mission">
-          Our Mission
-        </Link>
-      </nav>
-      </div>
+      <>
+      <h2> What do you want to learn? </h2>
+        <section className="card-list">
+       {cardArray.map((card) => <Cards key={card.id} cardData={card}/>)}
+      </section>
+      </>
     );
   }
   
