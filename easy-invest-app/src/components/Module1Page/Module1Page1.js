@@ -1,6 +1,7 @@
 import React from "react";
 import './Module1Pages.scss';
 import ModuleCardList from "../ModuleCardList/ModuleCardList";
+import {Link} from "react-router-dom";
 
 
 const Module1Page1 = () => {
@@ -45,7 +46,7 @@ return (
     <p>Compare the graph results for 5 years. What do you notice?</p>
     <img className="module__image" src="images/graph.png"/>
     <br></br>
-    <button className="module__button">Test your knowledge</button>
+    <Link to="/simulation"> <button className="module__button">Test your knowledge</button> </Link>
   </div>
   </div>
 )}

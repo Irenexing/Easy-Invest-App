@@ -16,14 +16,14 @@ function HeroSection() {
           muted
         /> */}
         <h1>Be Money Confident</h1>
-        <p>Learn how to invest in less as a beginner</p>
+        <p>Learn how to invest smart as a beginner</p>
         <div className="hero-btns">
           <Button
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
           >
-            Let's get started! <i className="far fa-play-circle" />
+            Get started <i className="far fa-play-circle" />
           </Button>
         </div>
       </div>

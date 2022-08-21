@@ -8,6 +8,7 @@ import Invest101Page from './components/Invest101Page/Invest101Page';
 import Module1Page3 from './components/Module1Page/Module1Page3';
 import Module1Page1 from './components/Module1Page/Module1Page1';
 import Simulation from './components/Simulation/Simulation';
+import Simulation1 from './components/Simulation/Simulation1/Simulation1'          
 // import {useState} from 'react';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/module11" element={<Module1Page1 />} />
           <Route path="/module13" element={<Module1Page3 />} />
           <Route path="/simulation" element={<Simulation />} />
+            <Route path="/simulation1" element={<Simulation1 />} />
 
         </Routes>
       </BrowserRouter>
